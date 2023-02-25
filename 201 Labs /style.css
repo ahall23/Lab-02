@@ -5,16 +5,30 @@ body {
 }
 
 body {
-  background: #fffb00;
-  color: #ff2600;
+  background-color: bisque;
 }
 
 h1 {
   color: #d29d00;
-  margin-left: 40%;
+  margin-left: 25px 50px 75px 100px;
+  border: 10px;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: #d29d00;
+  margin-left: 25px 50px 75px 100px;
+  border: 10px;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
 }
 p {
-  margin: 1%;
+  color: black;
+  margin: 30px 15px 30px 15px;
+  font-size: 30px;
 }
 grid-continer {
   display: grid;
@@ -27,4 +41,32 @@ img {
 
 iframe {
   border-radius: 100%;
+}
+
+ul {
+  text-shadow: #d29d00;
+  font-size: 30px;
+}
+
+button {
+  color: blanchedalmond;
+  background: rgb(202, 129, 66);
+  border: rgb(202, 129, 66);
+  border-radius: 15px;
+  display: block;
+  margin: 30px auto;
+  padding: 15px 20px;
+  font-size: 20px;
+  transition: 200ms ease-in-out;
+  box-shadow: 2px 5px 5px rgba(0 0 0 / 20%);
+}
+button:hover {
+  color: rgb(202, 129, 66);
+  background: rgb(246, 213, 164);
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+li:hover {
+  text-decoration: underline;
 }
